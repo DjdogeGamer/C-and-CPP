@@ -1,19 +1,18 @@
 #include<stdio.h>
 
 int main() {
-    int a = 0,b = 0 ,c = 0;
-    float m = 0;
+    float a,b,c;
 
     printf("Digite o numero 1: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
 
     printf("Digite o numero 2: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
 
     printf("Digite o numero 3: ");
-    scanf("%d", &c);
+    scanf("%f", &c);
 
-    m = (a+b+c)/3;
+    float m = (a+b+c)/3;
 
     printf("A media aritmetica dos 3 numeros e: %.2f", m);
 

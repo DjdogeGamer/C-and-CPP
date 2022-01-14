@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 
 int main(){
     int num = 0;
@@ -15,4 +14,3 @@ int main(){
 
     return 0;
 }
-
