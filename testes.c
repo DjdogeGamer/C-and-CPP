@@ -2,23 +2,11 @@
 #include<stdlib.h>
 
 int main() {
-
-    int a1,a2,a3;
-
-    printf("Digite a area1: ");
-    scanf("%d", &a1);
-
-    printf("Digite a area2: ");
-    scanf("%d", &a2);
-
-    printf("Digite a area3: ");
-    scanf("%d", &a3);
-
-    if(a1 == a2 && a3 == a2) 
-        printf("Equilatero\n");
-    else if(a1 == a2 && a2 != a3 || a3 != a1) 
-        printf("Isosceles\n");
-    else if ((a1 != a2 && a2) != a3 && a3 != a1)
-        printf("Escaleno\n");
+    int s;
+    for(int i=1; i<10; i++){
+        int s = i*6;
+        printf("%d X 6 = %d\n" , i, s);
+    }
+    return 0;
     
 }
